@@ -1,10 +1,8 @@
-/* Body properties */
 body {
-    background-color: lightblue;
-    color: black;
+    background-color: #d0f0ff;
+    color: #222222;
 }
 
-/* Navigation properties */
 nav {
     height: 600px;
     width: 200px;
@@ -13,18 +11,19 @@ nav {
     line-height: 30px;
 }
 
-/* Footer properties */
 footer {
     text-align: center;
     margin-right: 200px;
+    clear: both;
 }
 
-/* Meme image properties */
-#memeImage {
-    margin-right: 200px;
-}
-
-/* Header properties */
 header {
     text-align: center;
+}
+
+#memeImage {
+    margin-right: 200px;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
